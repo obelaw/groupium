@@ -1,0 +1,23 @@
+{
+    "name": "obelaw/groupium",
+    "description": "groupium",
+    "autoload": {
+        "psr-4": {
+            "Obelaw\\Groupium\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Mohamed",
+            "email": "komicho1996@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Obelaw\\Groupium\\GroupiumServiceProvider"
+            ]
+        }
+    }
+}
