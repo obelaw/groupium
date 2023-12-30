@@ -12,12 +12,16 @@
             "email": "komicho1996@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "obelaw/ui": "^1.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Obelaw\\Groupium\\GroupiumServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
